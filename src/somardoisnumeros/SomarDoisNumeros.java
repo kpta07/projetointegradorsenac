@@ -18,18 +18,18 @@ public class SomarDoisNumeros {
      */
     public static void main(String[] args) {
           //Criando variaveis
-        int n1, n2, soma;
+        int numero1, numero2, soma;
     
      //Criando o objeto de leitura de dados
       
       Scanner sc= new Scanner(System.in);
       System.out.print("Digite o 1° numero:");
-      n1 = sc.nextInt();
+      numero1 = sc.nextInt();
       System.out.print("Digite o 2° numero:");
-      n2 = sc.nextInt();
+      numero2 = sc.nextInt();
       
       //Calculando a soma de N1 e N2
-      soma = n1 + n2;
+      soma = numero1 + numero2;
       
       //Exibindo resultado da soma
       System.out.print("A soma é:" + soma);
